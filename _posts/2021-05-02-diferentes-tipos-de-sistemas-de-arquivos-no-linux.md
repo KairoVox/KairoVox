@@ -1,18 +1,19 @@
 ---
 layout: post
-title: Adding HTTP response headers to a Netlify static website
-description: Increase the security of your Netlify website by adding security headers
-summary: Increase the security of your Netlify website by adding security headers.
+title:  Diferentes tipos de sistemas de arquivos no GNU/Linux
+description: Os sistemas de arquivos mais usados no GNU/Linux
+summary: Conheça os sistemas de arquivos mais usados no GNU/Linux
 comments: true
-tags: [netlify, coding, security]
+tags: [sistemas de arquivos, curiosidades, iniciantes]
 ---
 
-Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.
+# Os sistemas de arquivos mais utilizados no GNU/Linux
 
-Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90's. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.
+Um sistema de arquivos é um conjunto de estruturas lógicas que permite o sistema operacional controlar o acesso a um dispositivo de armazenamento como disco rígido, pen drive, cd-room, etc. 
+Diferentes sistemas operacionais podem usar diferentes sistemas de arquivos.
 
-VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.
+Diferente do Windows que possui seu sistema de arquivos padrão o NTFS, os sistemas GNU/Linux possuem diferentes tipos de sistemas de arquivos.
+Cada distribuição possui seu sistema de arquivos padrão, como o brtfs no Fedora ou ext4 no Ubuntu.
 
-Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.
-
-Actually hella you probably haven't heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.
+A verdade é que não existe "O melhor sistema de arquivos", e sim aquele que vai ser melhor para VOCÊ.
+Abaixo você verá os sistemas de arquivos mais utilizados ou conhecidos do mundo GNU/Linux.
