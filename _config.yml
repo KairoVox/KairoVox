@@ -1,7 +1,7 @@
-site: Asko
-url: #yoururl
-title: Asko
-description: Simple and minimalistic jekyll blogging theme.
+site: KairoVox
+url: https://kairovox.github.io/
+title: KairoVox
+description: Blog do canal do youtube, falando sobre tecnologia e focado em GNU/Linux
 googlewebfonts: Fira+Code:wght@400;500;700
 twitter:
   username: #yourusername
