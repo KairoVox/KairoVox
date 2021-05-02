@@ -47,4 +47,21 @@ O sistema de arquivos ext4 pode suportar volumes com tamanho até 1 exabyte e ar
 #### Extensões
 As extensões são introduzidas para substituir o tradicional bloco de mapeamento de esquema usado por arquivos ext2/3.Uma extensão é um conjunto de blocos contíguos físico, melhorando o desempenho de muitos arquivos e redução de fragmentação. Uma única extensão em ext4 pode mapear até 128MB de espaço contíguo com um bloco de 4 KB de tamanho. Quando há mais de 4 extensões em um arquivo, o resto das extensões são indexadas em um three.
 
+#### Compatibilidade com versões anteriores
+O sistema de arquivos ext4 é compatível com o ext3 e ext2 Isto irá melhorar o desempenho já ligeiramente, porque alguns novos recursos do ext4 também pode ser usado com ext3 e ext2, tal como o novo algoritmo de alocação de blocos.
+
+#### Pré Alocação
+O sistema de arquivos ext4 permite pré-alocação de espaço em disco para um arquivo.
+
+Um novo fallocate () chamada de sistema foi adicionado ao Linux para uso de sistemas de arquivos, incluindo ext4 e XFS, que têm essa capacidade.
+
+#### O mais rápido sistema de arquivos de verificação
+No ext4, bloco alocado grupos e secções da tabela de inode são marcados como tal. Isso permite que e2fsck para ignorá-los completamente em uma verificação e reduz o tempo necessário para verificar o sistema de arquivos do tamanho do ext4 é construída para suportar. Esse recurso é implementado na versão 2.6.24 do Linux.
+
+#### Alocador MultiBloco
+O alocador multiblock é usado quando a atribuição atrasada é ativado por um sistema de arquivos, ou quando os arquivos são abertos no modo O_DIRECT. Esse recurso não afeta o formato de disco.
+
+#### Timestamps
+Ext4 também adiciona um suporte para a data-criado timestamps. Mas, como Theodore Ts'o salienta, ao mesmo tempo que é fácil de adicionar um campo data de criação extra no inode (portanto, tecnicamente permitindo suporte para data criada timestamps em ext4), é mais difícil de modificar ou adicionar o necessário sistema de chamadas, como stat () (que provavelmente exigiria uma nova versão), e as várias bibliotecas que dependem deles (como glibc). Estas alterações exigem a coordenação de vários projetos. Portanto, mesmo se os desenvolvedores implementarem o suporte inicial para a data de criação de carimbos, esse recurso não estará disponível nesse momento para programas de usuário.
+
 
